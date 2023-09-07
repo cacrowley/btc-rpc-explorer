@@ -1,0 +1,81 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "pnpm start",
+      "runAtStart": true,
+      "preview": {
+        "port": 3002
+      }
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "miners": {
+      "name": "miners",
+      "command": "pnpm miners",
+      "runAtStart": false
+    },
+    "integrity": {
+      "name": "integrity",
+      "command": "pnpm integrity",
+      "runAtStart": false
+    },
+    "css-light-debug": {
+      "name": "css-light-debug",
+      "command": "pnpm css-light-debug",
+      "runAtStart": false
+    },
+    "css-dark-debug": {
+      "name": "css-dark-debug",
+      "command": "pnpm css-dark-debug",
+      "runAtStart": false
+    },
+    "css-dark-v1-debug": {
+      "name": "css-dark-v1-debug",
+      "command": "pnpm css-dark-v1-debug",
+      "runAtStart": false
+    },
+    "css-debug": {
+      "name": "css-debug",
+      "command": "pnpm css-debug",
+      "runAtStart": false
+    },
+    "css-light": {
+      "name": "css-light",
+      "command": "pnpm css-light",
+      "runAtStart": false
+    },
+    "css-dark": {
+      "name": "css-dark",
+      "command": "pnpm css-dark",
+      "runAtStart": false
+    },
+    "css-dark-v1": {
+      "name": "css-dark-v1",
+      "command": "pnpm css-dark-v1",
+      "runAtStart": false
+    },
+    "css": {
+      "name": "css",
+      "command": "pnpm css",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    }
+  }
+}
